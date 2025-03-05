@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class Calculator {
 
     private int result;
-
     private ArrayList<Integer> list = new ArrayList<>();
 
     public void calculate(int a, int b, char op) {
@@ -51,13 +50,16 @@ public class Calculator {
 
     // + remove
     public void removeResult() {
-        list.remove(0);
+        if (!list.isEmpty()) {
+            list.remove(0);
+        } else {
+            System.out.println("삭제할 연산 결과가 없습니다.");
+        }
     }
 
     // 저장된 모든 연산 결과 출력
     public void showResults() {
         System.out.println("저장된 모든 결과: " + list);
-        //System.out.println("저장된 모든 결과: " + list.toString());
     }
 
 }
