@@ -39,7 +39,7 @@ public class BasicCal {
 
             System.out.print("다시하기 -> 아무글자나 입력 / 그만하기 -> exit : ");
             String endOrNot = sc.nextLine();
-            if (endOrNot.equals("exit")) {
+            if ("exit".equals(endOrNot)) {
                 System.out.println("종료되었습니다.");
                 break;
             }
