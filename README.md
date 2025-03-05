@@ -6,3 +6,10 @@
 
 # 개발환경
 <img src="https://img.shields.io/badge/intellij%20idea-%23000000.svg?&style=for-the-badge&logo=intellij%20idea&logoColor=white" />
+
+# 파일구성
+Lv.1 - BasicCalculator
+: 클래스 없이 기본적인 연산을 수행할 수 있는 계산기
+
+Lv.2 - App(main),Calculator
+: 클래스를 적용해 기본적인 연산을 수행할 수 있는 계산기
