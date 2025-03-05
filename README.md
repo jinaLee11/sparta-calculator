@@ -11,7 +11,7 @@
 <b>Lv.1 - BasicCalculator</b> <br>
 : 클래스 없이 기본적인 연산을 수행할 수 있는 계산기
 
-Lv.2 - App(main),Calculator <br>
+<b>Lv.2 - App(main),Calculator</b> <br>
 : 클래스를 적용해 기본적인 연산을 수행할 수 있는 계산기
 
 <h2>트러블슈팅</h2>
